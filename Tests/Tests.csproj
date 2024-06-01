@@ -11,6 +11,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\csharp.csproj" />
+      <ProjectReference Include="..\MainApp\csharp.csproj" />
     </ItemGroup>
 
     <ItemGroup>
