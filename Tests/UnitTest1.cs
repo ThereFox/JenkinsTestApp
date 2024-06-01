@@ -15,8 +15,9 @@ public class UnitTest1
         var sut = new GildedRose(ZeroQualityElementInput);
         
         sut.UpdateQuality();
+        
 
-        Assert.True(ZeroQualityElementInput.All(ex => ex.Quality > 0));
+        Assert.True(ZeroQualityElementInput.All(ex => ex.Quality >= 0));
 
     }
 }
