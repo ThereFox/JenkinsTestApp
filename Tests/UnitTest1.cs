@@ -54,5 +54,10 @@ public class UnitTest1
         Assert.True(initItem[0].Quality == 8);
         
     }
-    
+
+    [Fact]
+    public void AllwaysFailure()
+    {
+        Assert.Fail();
+    }
 }
