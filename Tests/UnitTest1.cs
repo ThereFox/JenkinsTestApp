@@ -10,7 +10,7 @@ public class UnitTest1
     {
         var ZeroQualityElementInput = new List<Item>()
         {
-            new Item() { Name = "TestName", Quality = 0, SellIn = 12}
+            new Item() { Name = "TestName", Quality = 0, SellIn = 22}
         }; 
         var sut = new GildedRose(ZeroQualityElementInput);
         
